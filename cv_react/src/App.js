@@ -11,10 +11,10 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" exact element ={<Home/>}/>
-        <Route path="/" exact element ={<Competence/>}/>
-        <Route path="/" exact element ={<Contact/>}/>
-        <Route path="/" exact element ={<Portefolio/>}/>
-        <Route path="/" exact element ={<NotFound/>}/>
+        <Route path="/Competence" element ={<Competence/>}/>
+        <Route path="/Contact"  element ={<Contact/>}/>
+        <Route path="/Portfolio" element ={<Portefolio/>}/>
+        <Route path ="*"  element ={<NotFound/>}/>
       </Routes>
     </BrowserRouter>
   </div>

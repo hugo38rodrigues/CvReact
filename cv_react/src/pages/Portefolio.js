@@ -1,9 +1,10 @@
 import React from 'react';
+import Navigation from '../component/Navigation';
 
 const Portefolio = () => {
     return (
-        <div>
-            
+        <div className='Portefolio'>
+            <Navigation />
         </div>
     );
 };

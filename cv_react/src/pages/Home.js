@@ -2,8 +2,17 @@ import React from 'react';
 import Navigation from '../component/Navigation';
 const Home = () => {
     return (
-        <div>
-            <Navigation/>
+        <div className='home'>
+            <Navigation />
+            <div className='homeContent'>
+                <div className='content'>
+                    <h1> Hugo Rodrigues</h1>
+                    <h2>Développeur Front-end</h2>
+                    <div className='pdf'>
+                        <a href="./media/CV.pdf" target="_blank">Télécharge CV</a>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 };
