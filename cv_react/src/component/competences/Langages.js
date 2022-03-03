@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ProgressBar from "./ProgressBar";
+
 export default class Langages extends Component {
     state={
         langages:[
@@ -20,7 +21,7 @@ export default class Langages extends Component {
         <div className='"languagesFrameworks'>
             <ProgressBar 
                 langages={langages}
-                className="langesDisplay"
+                className="langagesDisplay"
                 title="langages"
             />
             <ProgressBar 
