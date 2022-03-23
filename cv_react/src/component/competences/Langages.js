@@ -25,9 +25,10 @@ export default class Langages extends Component {
                 title="langages"
             />
             <ProgressBar 
-                framworks={framworks}
+                title="framworks & bibliothèque"
+                langages={framworks}
                 className="framworksDisplay"
-                title="framworks"
+                
             />
 
         </div>

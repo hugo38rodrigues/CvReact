@@ -5,7 +5,7 @@ const ProgressBar = (props) => {
     return (
         <div className={props.className}>
             <h3>{props.title}</h3>
-            <div className='years'>
+            <div className="years">
                 <span>Années d'expériences</span>
                 <span>2 mois</span>
                 <span>1 ans</span>
