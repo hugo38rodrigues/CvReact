@@ -1,5 +1,12 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHome } from "@fortawesome/free-solid-svg-icons";
+import { faMountain } from "@fortawesome/free-solid-svg-icons";
+import { faImage } from "@fortawesome/free-solid-svg-icons";
+import { faAddressBook } from "@fortawesome/free-solid-svg-icons";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const Navigation = () => {
   return (
@@ -10,35 +17,36 @@ const Navigation = () => {
           <h3> Hugo Rodrigues</h3>
         </div>
       </div>
+
       <div className="navigation">
         <ul>
           <li>
-            <NavLink exact to="/">
-              <i className="fas fa-home"></i>
+            <NavLink exact to="/" activeclassname="navActive">
+              <FontAwesomeIcon icon={faHome} />
               <span>Acceuil</span>
             </NavLink>
           </li>
           <li>
-            <NavLink exact to="/Competence">
-              <i className="fas fa-mountain"></i>
+            <NavLink exact to="/Competence" activeclassname="navActive">
+              <FontAwesomeIcon icon={faMountain} />
               <span>Compétences</span>
             </NavLink>
           </li>
           <li>
-            <NavLink exact to="/Portfolio">
-              <i className="fas fa-images"></i>
+            <NavLink exact to="/Portfolio" activeclassname="navActive">
+              <FontAwesomeIcon icon={faImage} />
               <span>Portfolio</span>
             </NavLink>
           </li>
           <li>
-            <NavLink exact to="/Contact">
-              <i className="fas fa-adress-book"></i>
+            <NavLink exact to="/Contact" activeclassname="navActive">
+              <FontAwesomeIcon icon={faAddressBook} />
               <span>Contact</span>
             </NavLink>
           </li>
         </ul>
       </div>
-      <div className="socialNetwork">
+      <div className="socialNetwork" activeclassname="navActive">
         <ul>
           <li>
             <a
@@ -46,7 +54,7 @@ const Navigation = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="fab fa-github"></i>Github
+              <FontAwesomeIcon icon={faGithub} />
             </a>
           </li>
 
@@ -56,7 +64,7 @@ const Navigation = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="fab fa-linkedin"></i>Linkedin
+              <FontAwesomeIcon icon={faLinkedin} />
             </a>
           </li>
         </ul>
