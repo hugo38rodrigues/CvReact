@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCheckSquare } from "@fortawesome/free-solid-svg-icons";
 
 const AutresCompetences = () => {
   return (
@@ -7,10 +9,18 @@ const AutresCompetences = () => {
         <h3>Autre compéternces</h3>
         <div className="list">
           <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>
+              <FontAwesomeIcon icon={faCheckSquare} />
+              Teams
+            </li>
+            <li>
+              <FontAwesomeIcon icon={faCheckSquare} />
+              Anglais
+            </li>
+            <li>
+              <FontAwesomeIcon icon={faCheckSquare} />
+              Méthodes agiles
+            </li>
           </ul>
         </div>
       </div>
