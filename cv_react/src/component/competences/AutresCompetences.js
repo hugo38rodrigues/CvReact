@@ -1,7 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheckSquare } from "@fortawesome/free-solid-svg-icons";
-
 const AutresCompetences = () => {
   return (
     <div>
@@ -20,6 +19,10 @@ const AutresCompetences = () => {
             <li>
               <FontAwesomeIcon icon={faCheckSquare} />
               Méthodes agiles
+            </li>
+            <li>
+              <FontAwesomeIcon icon={faCheckSquare} />
+              Figma
             </li>
           </ul>
         </div>
