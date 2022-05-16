@@ -13,8 +13,7 @@ const Loisirs = () => {
           <FontAwesomeIcon icon={faDesktop} /> Informatique
         </li>
         <li>
-          <FontAwesomeIcon icon={faFire} />
-          Pompier
+          <FontAwesomeIcon icon={faFire} /> Pompier
         </li>
         <li>
           <FontAwesomeIcon icon={faBaseball} /> Handball
