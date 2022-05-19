@@ -32,10 +32,10 @@
                 "L",
                 "F";
             .languagesDisplay{
-                grid-area: L;
+                grid-area: "L";
             }
             .framworkDsiplay{
-                grid-area: F;
+                grid-area: "F";
                
             }
             h3{
@@ -109,11 +109,12 @@
     margin: 0 0 .5rem .5rem;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 10% 1fr 1fr;
+    grid-template-rows: 10% 1fr 1fr 1fr;
     grid-template-areas: 
       "1"
       "2"
-      "3";
+      "3"
+      "4";
     
     h3 {
       grid-area: 1;
@@ -135,6 +136,30 @@
     }
     .exp-2 {
       grid-area: 3;
+    }
+    .formation{
+      grid-area: 4;
+      display:grid;
+      grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+      "1"
+      "2"
+      "3"
+      "4";
+
+      .form-1{
+        grid-area:2;
+      }
+      .form-2{
+        grid-area:3;
+      }
+      .form-3{
+        grid-area:4;
+      }
+      .form-4{
+        grid-area:5;
+      }
     }
   }
   .otherSkills {

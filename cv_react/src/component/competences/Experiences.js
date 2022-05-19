@@ -22,6 +22,25 @@ const Experiences = () => {
           pour la recharge par induction d'une télécommande pilotant des vannes.
         </p>
       </div>
+      <div className="formation">
+        <h3>Certification Openclassrooms</h3>
+        <div className="form-1">
+          <h4>2022</h4>
+          <p>Débutez avec React</p>
+        </div>
+        <div className="form-2">
+          <h4>2021</h4>
+          <p>Démarrez votre application python</p>
+        </div>
+        <div className="form-3">
+          <h4>2021</h4>
+          <p>Comprendre le web</p>
+        </div>
+        <div className="form-4">
+          <h4>2021</h4>
+          <p>Apprenez à programmer avec javaScript</p>
+        </div>
+      </div>
     </div>
   );
 };
