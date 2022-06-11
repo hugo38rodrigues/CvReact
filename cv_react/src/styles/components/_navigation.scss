@@ -70,93 +70,93 @@
       }
     }
   }
-  .socialNetwork {
-    grid-area: 3;
+}
+.socialNetwork {
+  grid-area: 3;
+
+  ul {
+    display: flex;
+    width: 264px;
+    padding: 0 14px;
+    justify-content: space-between;
+
+    li {
+      font-size: 1.5rem;
+      background: $color-5;
+      color: $color-1;
+      border-radius: 50%;
+      padding: .5rem 0.8rem;
+      transition: .3s;
+      cursor: pointer;
+
+      a:visited {
+        color: $color-1;
+      }
+      &:nth-child(1){
+        padding: .5rem .85rem
+      }
+      &:nth-child(4){
+        padding: .5rem .75rem
+      }
+      &:hover {
+        background: $color-4;
+      }
+    }
+  }
+  .signature {
+    margin-top: 2rem;
+    text-align: center;
+    letter-spacing: .1rem;
+    font-size: .7rem;
+    p{
+      color: $color-5;
+      &:hover {
+        color: $color-4;
+      }
+    }
+  
+  }
+}
+
+@media screen and (max-width: 850px){
+.sidebar {
+  display: flex;
+  min-height: 50px;
+  margin-bottom: .2rem;
+
+  .id, .socialNetwork {
+    display: none;
+  }
+  .navigation {
+    width: 100%;
+    padding: .1rem 1rem;
 
     ul {
       display: flex;
-      width: 264px;
-      padding: 0 14px;
       justify-content: space-between;
 
-      li {
-        font-size: 1.5rem;
-        background: $color-5;
-        color: $color-1;
-        border-radius: 50%;
-        padding: .5rem 0.8rem;
-        transition: .3s;
-        cursor: pointer;
-
-        a:visited {
-          color: $color-1;
-        }
-        &:nth-child(1){
-          padding: .5rem .85rem
-        }
-        &:nth-child(4){
-          padding: .5rem .75rem
-        }
-        &:hover {
-          background: $color-4;
-        }
-      }
-    }
-    .signature {
-      margin-top: 2rem;
-      text-align: center;
-      letter-spacing: 0.1rem;
-      font-size: .7rem;
-
-      a, a:visited {
-        color: $color-5;
-
-        &:hover {
-          color: $color-4;
-        }
+      span {
+        margin-left: 1.5rem !important;
       }
     }
   }
 }
-@media screen and (max-width: 850px){
-  .sidebar {
-    display: flex;
-    min-height: 50px;
-    margin-bottom: .2rem;
-
-    .id, .socialNetwork {
-      display: none;
-    }
-    .navigation {
-      width: 100%;
-      padding: .1rem 1rem;
-
-      ul {
-        display: flex;
-        justify-content: space-between;
-
-        span {
-          margin-left: 1.5rem !important;
-        }
-      }
-    }
-  }
 }
 @media screen and (max-width:580px){
-  .sidebar {
-    ul {
-      justify-content: space-around !important;
+.sidebar {
+  ul {
+    justify-content: space-around !important;
 
-      li {
-        padding: 1rem 0 !important;
-      }
-      i {
-        font-size: 1.4rem !important;
-        transform: translateY(-3px) !important;
-      }
-      span {
-        display: none;
-      }
+    li {
+      padding: 1rem 0 !important;
+    }
+    i {
+      font-size: 1.4rem !important;
+      transform: translateY(-3px) !important;
+    }
+    span {
+      display: none;
     }
   }
+}
 }
