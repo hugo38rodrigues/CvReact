@@ -46,6 +46,7 @@ const Navigation = () => {
           </li>
         </ul>
       </div>
+
       <div className="socialNetwork" activeclassname="navActive">
         <ul>
           <li>
@@ -68,9 +69,9 @@ const Navigation = () => {
             </a>
           </li>
         </ul>
-      </div>
-      <div className="signature">
-        <p>Hugo Rodrigues - 2022</p>
+        <div className="signature">
+          <p>Hugo Rodrigues - 2022</p>
+        </div>
       </div>
     </div>
   );

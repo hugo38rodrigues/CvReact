@@ -8,9 +8,13 @@ const Experiences = () => {
         <h4>Alternance assistant chef de projet / DevOps</h4>
         <h5>Tecknowmetrix, Voiron(38) Sept.2021-Sept.2022</h5>
         <p>
-          J'ai mis en place Jira dans l'entreprise TKM aisni que Bitbucket. J'ai
-          aussi former l'équipe à l'utilisation de git. Enfin j'ai crée un
-          processus de cycle de vie d'un logiciel.
+          J'ai effectuer mon alternance au poste de d'assistant chef de projet /
+          DevOps. En tant qu'assistant chef de projet j'ai mis en place un
+          processus de cycle de vie d'un logiciel avec la refonte du processus
+          de release de l'ntrerpise Tecknowmetrix. J'ai aussi formé l'équipe R&d
+          à l'utilisation de Git et Bitbucket. En tant que DevOps, j'ai été en
+          charge d'installer, de congigurer et de faire intéragir Jira,
+          Confluence, Bitbucket et Slack entre eux.
         </p>
       </div>
       <div className="exp-2">
