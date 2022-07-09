@@ -16,6 +16,7 @@ export default class ProjectList extends Component {
   handleRadio = (event) => {
     let radio = event.tagert.value;
     this.setState({ selectedRadio: radio });
+    console.log(event.target.value);
   };
   render() {
     let { project, radios, selectedRadio } = this.state;
