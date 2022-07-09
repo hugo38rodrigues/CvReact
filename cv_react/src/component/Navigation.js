@@ -23,7 +23,7 @@ const Navigation = () => {
           <li>
             <NavLink exact to="/" activeclassname="navActive">
               <FontAwesomeIcon icon={faHome} />
-              <span>Acceuil</span>
+              <span>Accueil</span>
             </NavLink>
           </li>
           <li>

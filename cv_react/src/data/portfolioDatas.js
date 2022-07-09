@@ -1,7 +1,7 @@
 export const portfolioData = [
   {
     id: 1,
-    name: "application 2R",
+    name: "Application 2R",
     languages: ["React", "CSS", "PHP"],
     languagesIcons: [
       "fa-brands fa-react",
